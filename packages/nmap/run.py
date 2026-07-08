@@ -1,1 +1,4 @@
-command = "sudo podman run -it --rm --network host --privileged nmap:latest"
+"""
+package: nmap
+run: sudo podman run -it --rm --network host --privileged nmap:latest"
+"""
