@@ -29,8 +29,14 @@ def get_packages_list() -> list[str]:
         if os.path.exists(package_config):
             with open(package_config, "r") as file:
                 data = json.load(file)
-            name = data["name"]
-            packages_list.append(name)
+            name = data.get("name")
+            description = data.get("description")
+            source = data.get("source")
+            packages_list.append({
+                "name":name, 
+                "description":description,
+                "source":source
+                })
 
     return packages_list
 

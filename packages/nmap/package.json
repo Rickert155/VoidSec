@@ -1,5 +1,6 @@
 {
     "name":"nmap",
+    "description":"Утилита для исследования сети и сканер портов",
     "source":"https://github.com/nmap/nmap",
     "containerfile":"Containerfile",
     "user":"root",

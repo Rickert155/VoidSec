@@ -8,4 +8,8 @@ def main():
     if len(packages_list) > 0:
         print(f"{GREEN}Список доступных модулей:{RESET}")
         for index, package in enumerate(packages_list, start=1):
-            print(f"[{index}] {BOLD}{package}{RESET}")
+            print(
+                    f"{RED}[{index}]{RESET} {BOLD}{package['name']}"
+                    f" - {package['description']}{RESET}\n"
+                    f"\tURL: {package['source']}"
+                    )
