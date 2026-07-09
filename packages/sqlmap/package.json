@@ -1,0 +1,10 @@
+{
+    "name":"sqlmap",
+    "description":"Инструмент для выявления sqli в веб-приложениях",
+    "source":"https://github.com/sqlmapproject/sqlmap",
+    "containerfile":"Containerfile",
+    "user":"user",
+    "command_build":"podman build -t sqlmap-container -f Containerfile",
+    "image":"localhost/sqlmap-container",
+    "local_file":"/usr/local/bin/sqlmap-container"
+}

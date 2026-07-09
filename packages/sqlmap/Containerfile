@@ -1,0 +1,8 @@
+FROM alpine
+RUN apk add --no-cache git fish python3
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN git clone https://github.com/sqlmapproject/sqlmap
+WORKDIR /root/sqlmap
+RUN apk del git
+CMD ["fish"]
