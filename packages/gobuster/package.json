@@ -1,5 +1,5 @@
 {
-    "name":"gubuster",
+    "name":"gobuster",
     "description":"Сканер директорий и файлов",
     "source":"https://github.com/OJ/gobuster",
     "containerfile":"Containerfile",
