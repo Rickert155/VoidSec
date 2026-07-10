@@ -1,0 +1,10 @@
+{
+    "name":"sslscan",
+    "description":"Tests SSL/TLS enabled services to discover supported cipher suites",
+    "source":"https://github.com/rbsec/sslscan",
+    "containerfile":"Containerfile",
+    "user":"user",
+    "command_build":"podman build -t sslscan-container -f Containerfile",
+    "image":"localhost/sslscan",
+    "local_file":"/usr/local/bin/sslscan"
+}

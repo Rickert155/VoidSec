@@ -1,6 +1,6 @@
 """
 package: nmap
-build: sudo podman build -t nmap -f Containerfile
+build: sudo podman build -t nmap-container -f Containerfile
 """
 
 
