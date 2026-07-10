@@ -1,0 +1,12 @@
+FROM ubuntu:24.04
+
+RUN apt update && apt install fish libpcap-dev gcc make git -y
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN git clone https://github.com/robertdavidgraham/masscan 
+WORKDIR /root/masscan
+RUN make
+RUN make install
+WORKDIR /root
+RUN apt remove make git -y && apt autoremove -y
+CMD ["fish"]

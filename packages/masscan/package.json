@@ -1,0 +1,10 @@
+{
+    "name":"masscan",
+    "description":"This is an Internet-scale port scanner.",
+    "source":"https://github.com/robertdavidgraham/masscan",
+    "containerfile":"Containerfile",
+    "user":"user",
+    "command_build":"podman build -t masscan-container -f Containerfile",
+    "image":"localhost/masscan-container",
+    "local_file":"/usr/local/bin/masscan-container"
+}
