@@ -9,5 +9,6 @@ RUN ./configure --prefix=/usr
 RUN make
 RUN make install
 WORKDIR /root
+RUN rm -rf *
 RUN apt remove gcc make git g++ -y && apt autoremove -y
 CMD ["fish"]
