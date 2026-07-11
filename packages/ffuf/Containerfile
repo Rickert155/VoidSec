@@ -1,0 +1,14 @@
+FROM alpine
+
+RUN apk add --no-cache fish go git
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN git clone https://github.com/ffuf/ffuf
+WORKDIR /root/ffuf
+RUN go get
+RUN go build
+RUN apk del go git
+RUN cp ffuf /usr/local/bin/ffuf
+WORKDIR /root
+RUN rm -rf *
+CMD ["fish"]
