@@ -8,5 +8,6 @@ WORKDIR /root/masscan
 RUN make
 RUN make install
 WORKDIR /root
+RUN rm -rf *
 RUN apt remove make git -y && apt autoremove -y
 CMD ["fish"]
