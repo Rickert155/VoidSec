@@ -8,5 +8,6 @@ WORKDIR /root/sslscan
 RUN make static
 RUN make install
 WORKDIR /root
+RUN rm -rf *
 RUN apt remove gcc make git zlib1g-dev -y && apt autoremove -y
 CMD ["fish"]
