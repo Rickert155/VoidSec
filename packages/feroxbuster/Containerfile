@@ -1,0 +1,13 @@
+FROM alpine
+
+RUN apk add --no-cache git fish rust cargo perl make
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN git clone https://github.com/epi052/feroxbuster
+WORKDIR feroxbuster
+RUN cargo build --release
+RUN apk del rust git perl make cargo
+RUN mv /root/feroxbuster/target/release/feroxbuster /usr/local/bin/feroxbuster
+WORKDIR /root
+RUN rm -rf /root
+CMD ["fish"]
