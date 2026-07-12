@@ -1,0 +1,10 @@
+FROM alpine 
+
+RUN apk add --no-cache fish go git
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN CGO_ENABLED=1 go install github.com/projectdiscovery/katana/cmd/katana@latest
+RUN cp go/bin/katana /usr/local/bin/katana
+RUN rm -rf /root/*
+RUN apk del go git
+CMD ["fish"]
