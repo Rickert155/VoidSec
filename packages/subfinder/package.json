@@ -1,0 +1,10 @@
+{
+    "name":"subfinder",
+    "description":"Subdomain discovery tool that returns valid subdomains for websites",
+    "source":"https://github.com/projectdiscovery/subfinder",
+    "containerfile":"Containerfile",
+    "user":"user",
+    "command_build":"podman build -t subfinder-container -f Containerfile",
+    "image":"localhost/subfinder",
+    "local_file":"/usr/local/bin/subfinder"
+}
