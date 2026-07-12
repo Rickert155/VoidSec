@@ -22,6 +22,8 @@ def get_packages_list() -> list[str]:
     packages_dir_list = []
     for package_dir in os.listdir(packages_dir):
         packages_dir_list.append(f"{packages_dir}/{package_dir}")
+
+    packages_dir_list = sorted(packages_dir_list)
     
     packages_list = []
     for package_dir in packages_dir_list:
