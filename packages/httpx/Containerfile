@@ -1,0 +1,10 @@
+FROM alpine 
+
+RUN apk add --no-cache fish go git
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+RUN cp go/bin/httpx /usr/local/bin/httpx
+RUN rm -rf /root/*
+RUN apk del go git
+CMD ["fish"]
