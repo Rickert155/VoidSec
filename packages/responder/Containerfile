@@ -1,0 +1,10 @@
+FROM ubuntu:22.04
+
+RUN apt update && apt install fish python3 python3-venv python3-dev gcc git -y
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN git clone https://github.com/lgandx/Responder
+WORKDIR /root/Responder
+RUN python3 -m venv venv && ./venv/bin/pip3 install -r requirements.txt
+RUN echo "source /root/Responder/venv/bin/activate.fish" > /root/.config/fish/config.fish
+CMD ["fish"]

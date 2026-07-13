@@ -1,7 +1,7 @@
 {
     "name":"feroxbuster",
     "description":"A simple, fast, recursive content discovery tool written in Rust",
-    "source":"https://github.com/projectdiscovery/subfinder",
+    "source":"https://github.com/projectdiscovery/feroxbuster",
     "containerfile":"Containerfile",
     "user":"user",
     "command_build":"podman build -t feroxbuster-container -f Containerfile",
