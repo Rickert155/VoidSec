@@ -1,2 +1,2 @@
-packages_json = "packages.json"
+packages_dir = "packages"
 package_json = "package.json"

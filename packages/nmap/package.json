@@ -5,6 +5,6 @@
     "containerfile":"Containerfile",
     "user":"root",
     "command_build":"podman build -t nmap-container -f Containerfile",
-    "image":"localhost/nmap",
+    "image":"nmap-container",
     "local_file":"/usr/local/bin/nmap"
 }
