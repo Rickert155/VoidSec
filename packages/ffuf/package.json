@@ -3,8 +3,5 @@
     "description":"A fast web fuzzer written in Go.",
     "source":"https://github.com/ffuf/ffuf",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t ffuf-container -f Containerfile",
-    "image":"localhost/ffuf",
-    "local_file":"/usr/local/bin/ffuf"
+    "image":"localhost/ffuf"
 }

@@ -3,8 +3,5 @@
     "description":"Сканер директорий и файлов",
     "source":"https://github.com/OJ/gobuster",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t gobuster-container -f Containerfile",
-    "image":"localhost/gobuster-container",
-    "local_file":"/usr/local/bin/gobuster-container"
+    "image":"localhost/gobuster-container"
 }

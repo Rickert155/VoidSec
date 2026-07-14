@@ -3,8 +3,5 @@
     "description":"fast and multi-purpose HTTP toolkit",
     "source":"https://github.com/projectdiscovery/httpx",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -httpx-container -f Containerfile",
-    "image":"localhost/httpx",
-    "local_file":"/usr/local/bin/httpx"
+    "image":"localhost/httpx"
 }

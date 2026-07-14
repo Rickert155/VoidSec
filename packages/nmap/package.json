@@ -3,8 +3,6 @@
     "description":"Утилита для исследования сети и сканер портов",
     "source":"https://github.com/nmap/nmap",
     "containerfile":"Containerfile",
-    "user":"root",
-    "command_build":"podman build -t nmap-container -f Containerfile",
-    "image":"nmap-container",
-    "local_file":"/usr/local/bin/nmap"
+    "root":true,
+    "image":"nmap-container"
 }

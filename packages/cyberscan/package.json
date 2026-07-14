@@ -3,8 +3,5 @@
     "description":"Сканер web-приложений",
     "source":"https://gitea.com/cyberwarn/cyberscan",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t cyberscan-container -f Containerfile",
-    "image":"localhost/cyberscan-container",
-    "local_file":"/usr/local/bin/cyberscan-container"
+    "image":"localhost/cyberscan-container"
 }

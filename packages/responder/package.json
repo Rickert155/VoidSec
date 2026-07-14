@@ -3,8 +3,5 @@
     "description":"Responder is a LLMNR, NBT-NS, and MDNS poisoner with built-in rogue authentication servers for HTTP, SMB, MSSQL, FTP, LDAP, Kerberos, DNS, and more",
     "source":"https://github.com/lgandx/Responder",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t responder-container -f Containerfile",
-    "image":"localhost/responder-container",
-    "local_file":"/usr/local/bin/responder-container"
+    "image":"localhost/responder-container"
 }

@@ -3,8 +3,5 @@
     "description":"A next-generation crawling and spidering framework",
     "source":"https://github.com/projectdiscovery/katana",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t katana-container -f Containerfile",
-    "image":"localhost/katana",
-    "local_file":"/usr/local/bin/katana"
+    "image":"localhost/katana"
 }

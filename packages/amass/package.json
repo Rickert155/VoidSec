@@ -3,8 +3,5 @@
     "description":"In-depth Attack Surface Mapping and Asset Discovery",
     "source":"https://github.com/owasp-amass/amass",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t amass-container -f Containerfile",
-    "image":"localhost/amass",
-    "local_file":"/usr/local/bin/amass"
+    "image":"localhost/amass"
 }

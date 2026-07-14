@@ -3,8 +3,5 @@
     "description":"Инструмент для взлома сетевых входов методом brute-force",
     "source":"https://github.com/vanhauser-thc/thc-hydra",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t hydra-container -f Containerfile",
-    "image":"localhost/hydra-container",
-    "local_file":"/usr/local/bin/hydra-container"
+    "image":"localhost/hydra-container"
 }

@@ -3,8 +3,5 @@
     "description":"Modern, high-performance vulnerability scanner that leverages simple YAML-based templates",
     "source":"https://github.com/projectdiscovery/nuclei",
     "containerfile":"Containerfile",
-    "user":"user",
-    "command_build":"podman build -t nuclei-container -f Containerfile",
-    "image":"localhost/nuclei",
-    "local_file":"/usr/local/bin/nuclei"
+    "image":"localhost/nuclei"
 }
