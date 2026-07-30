@@ -1,4 +1,8 @@
+import sys
 from voidsec.cli import main
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        sys.exit("\nExit...")
