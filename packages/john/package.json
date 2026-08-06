@@ -1,0 +1,8 @@
+{
+    "name":"john",
+    "description":"Fast password cracker",
+    "source":"https://github.com/openwall/john",
+    "containerfile":"Containerfile",
+    "root":false,
+    "image":"john-container"
+}
