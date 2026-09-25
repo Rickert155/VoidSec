@@ -1,0 +1,7 @@
+{
+    "name":"CyberWarn",
+    "description":" Инструмент для автоматизированного выявления угроз кибер-безопасности",
+    "source":"https://github.com/rickert155/CyberWarn",
+    "containerfile":"Containerfile",
+    "image":"localhost/cyberwarn-container"
+}

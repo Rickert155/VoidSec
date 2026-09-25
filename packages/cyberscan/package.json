@@ -1,7 +1,0 @@
-{
-    "name":"cyberscan",
-    "description":"Сканер web-приложений",
-    "source":"https://gitea.com/cyberwarn/cyberscan",
-    "containerfile":"Containerfile",
-    "image":"localhost/cyberscan-container"
-}
