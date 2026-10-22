@@ -1,0 +1,7 @@
+{
+    "name":"wafw00f",
+    "description":"Детектор WAF",
+    "source":"https://github.com/EnableSecurity/wafw00f",
+    "containerfile":"Containerfile",
+    "image":"localhost/wafw00f-container"
+}

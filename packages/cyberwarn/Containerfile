@@ -1,6 +1,6 @@
 FROM alpine 
 
-RUN apk add --no-cache fish python3 git
+RUN apk add --no-cache fish python3 git vim
 RUN /usr/bin/fish -c "set -U fish_greeting"
 WORKDIR /root
 RUN git clone https://github.com/rickert155/CyberWarn cyberwarn
