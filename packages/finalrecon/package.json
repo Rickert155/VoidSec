@@ -1,0 +1,7 @@
+{
+    "name":"finalrecon",
+    "description":"Универсальный инструмент для автоматической веб-разведки",
+    "source":"https://github.com/thewhiteh4t/FinalRecon",
+    "containerfile":"Containerfile",
+    "image":"localhost/finalrecon-container"
+}

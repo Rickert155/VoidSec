@@ -1,6 +1,6 @@
 {
     "name":"whatwaf",
-    "description":" Детектор WAF",
+    "description":"Детектор WAF",
     "source":"https://github.com/Ekultek/WhatWaf",
     "containerfile":"Containerfile",
     "image":"localhost/whatwaf-container"
