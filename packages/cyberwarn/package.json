@@ -1,7 +1,8 @@
 {
     "name":"cyberwarn",
-    "description":" Инструмент для автоматизированного выявления угроз кибер-безопасности",
+    "description":"Automated Cyber Security Threat Detection Tool",
     "source":"https://github.com/rickert155/CyberWarn",
     "containerfile":"Containerfile",
+    "category":"webapp | web-analysis | fuzzing | brute-force | social",
     "image":"localhost/cyberwarn-container"
 }

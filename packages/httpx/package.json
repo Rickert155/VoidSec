@@ -3,5 +3,6 @@
     "description":"fast and multi-purpose HTTP toolkit",
     "source":"https://github.com/projectdiscovery/httpx",
     "containerfile":"Containerfile",
+    "category":"toolkit",
     "image":"localhost/httpx"
 }

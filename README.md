@@ -43,6 +43,7 @@ VoidSec не заменяет специализированные операц�
     "description":"Сканер web-приложений", # краткое описание
     "source":"https://gitea.com/cyberwarn/cyberscan", # источник исходных текстов
     "containerfile":"Containerfile", # имя файла для сборки образа
+    "category":"fuzzing | webapp", # категории или теги для оптимизации поиска
     "image":"localhost/cyberscan-container" # имя образа
 }
 ``` 
@@ -70,3 +71,8 @@ python3 -m voidsec --update cyberscan
 ```sh
 python3 -m voidsec --delete cyberscan
 ```
+
+**Поиск инструмента по ключевым словами**
+``sh
+python3 -m voidsec --search "scanner"
+``

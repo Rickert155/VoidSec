@@ -1,7 +1,8 @@
 {
     "name":"gobuster",
-    "description":"Сканер директорий и файлов",
+    "description":"a high-performance directory/file, DNS and virtual host brute-forcing tool",
     "source":"https://github.com/OJ/gobuster",
     "containerfile":"Containerfile",
+    "category":"fuzzing | recon | brute-force",
     "image":"localhost/gobuster-container"
 }

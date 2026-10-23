@@ -1,7 +1,8 @@
 {
     "name":"feroxbuster",
     "description":"A simple, fast, recursive content discovery tool written in Rust",
-    "source":"https://github.com/projectdiscovery/feroxbuster",
+    "source":"https://github.com/epi052/feroxbuster",
     "containerfile":"Containerfile",
+    "category":"scanner | recon | webapp",
     "image":"localhost/feroxbuster"
 }

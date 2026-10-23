@@ -3,5 +3,6 @@
     "description":"This is an Internet-scale port scanner.",
     "source":"https://github.com/robertdavidgraham/masscan",
     "containerfile":"Containerfile",
+    "category":"scaner | recon",
     "image":"localhost/masscan-container"
 }

@@ -3,5 +3,6 @@
     "description":"Modern, high-performance vulnerability scanner that leverages simple YAML-based templates",
     "source":"https://github.com/projectdiscovery/nuclei",
     "containerfile":"Containerfile",
+    "category":"vulnerability | vuln | vuln-scanner | scanner",
     "image":"localhost/nuclei"
 }

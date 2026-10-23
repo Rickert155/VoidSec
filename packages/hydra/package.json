@@ -3,5 +3,6 @@
     "description":"Инструмент для взлома сетевых входов методом brute-force",
     "source":"https://github.com/vanhauser-thc/thc-hydra",
     "containerfile":"Containerfile",
+    "category":"cracker",
     "image":"localhost/hydra-container"
 }

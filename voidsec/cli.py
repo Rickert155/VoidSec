@@ -6,6 +6,7 @@ from voidsec.core import (
         )
 from voidsec.build import package_build
 from voidsec.delete import package_delete
+from voidsec.search import search
 
 MODES = {
         "--build":{
@@ -27,6 +28,11 @@ MODES = {
             "helper":"python3 -m voidsec --list",
             "command":show_packages_list,
             "add_args":False
+            },
+        "--search":{
+            "helper":"python3 -m voidsec --search \"Scan\"",
+            "command":search,
+            "add_args":True
             },
         "--help":{
             "helper":"python3 -m voidsec --build --help"

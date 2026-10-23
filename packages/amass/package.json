@@ -3,5 +3,6 @@
     "description":"In-depth Attack Surface Mapping and Asset Discovery",
     "source":"https://github.com/owasp-amass/amass",
     "containerfile":"Containerfile",
+    "category":"recon | mapping | scanner | network | osint",
     "image":"localhost/amass"
 }

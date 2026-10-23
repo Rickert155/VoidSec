@@ -1,7 +1,8 @@
 {
     "name":"finalrecon",
-    "description":"Универсальный инструмент для автоматической веб-разведки",
+    "description":"FinalRecon is an all in one automatic web reconnaissance tool",
     "source":"https://github.com/thewhiteh4t/FinalRecon",
     "containerfile":"Containerfile",
+    "category":"recon | crawler | parser | webapp",
     "image":"localhost/finalrecon-container"
 }

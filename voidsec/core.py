@@ -28,6 +28,7 @@ def get_packages_list() -> list[dict]:
                 "name":data.get("name"),
                 "description":data.get("description"),
                 "source":data.get("source"),
+                "category":data.get("category"),
                 "path":package
                 }
         packages_list.append(meta_info)
@@ -37,9 +38,11 @@ def show_packages_list():
     packages_list = get_packages_list()
     for count, package in enumerate(packages_list, start=1):
         print(
-                f"{RED}[{count}]{RESET} {BOLD}{GREEN}{package['name']}{RESET} "
+                f"{RED}[{count}]{RESET} "
+                f"{BOLD}{GREEN}{package['name']}{RESET} "
+                f"[{package['category']}]\n"
                 f"{BOLD}{package['description']}{RESET}\n"
-                f"\t{YELLOW}URL: {package['source']}{RESET}"
+                f"{YELLOW}URL: {package['source']}{RESET}\n"
                 )
 
 

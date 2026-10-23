@@ -3,5 +3,6 @@
     "description":"A fast web fuzzer written in Go.",
     "source":"https://github.com/ffuf/ffuf",
     "containerfile":"Containerfile",
+    "category":"fuzzing | webapp",
     "image":"localhost/ffuf"
 }

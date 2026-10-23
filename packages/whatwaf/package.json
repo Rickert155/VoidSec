@@ -3,5 +3,6 @@
     "description":"Детектор WAF",
     "source":"https://github.com/Ekultek/WhatWaf",
     "containerfile":"Containerfile",
+    "category":"waf",
     "image":"localhost/whatwaf-container"
 }

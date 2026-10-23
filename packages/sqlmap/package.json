@@ -3,5 +3,6 @@
     "description":"Инструмент для выявления sqli в веб-приложениях",
     "source":"https://github.com/sqlmapproject/sqlmap",
     "containerfile":"Containerfile",
+    "category":"sqli | webapp",
     "image":"localhost/sqlmap-container"
 }

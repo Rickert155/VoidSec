@@ -3,6 +3,6 @@
     "description":"Fast password cracker",
     "source":"https://github.com/openwall/john",
     "containerfile":"Containerfile",
-    "root":false,
+    "category":"cracker",
     "image":"john-container"
 }

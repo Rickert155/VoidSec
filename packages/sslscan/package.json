@@ -3,5 +3,6 @@
     "description":"Tests SSL/TLS enabled services to discover supported cipher suites",
     "source":"https://github.com/rbsec/sslscan",
     "containerfile":"Containerfile",
+    "category":"ssl",
     "image":"localhost/sslscan"
 }

@@ -3,6 +3,6 @@
     "description":"Fastest and most advanced password recovery utility",
     "source":"https://github.com/hashcat/hashcat",
     "containerfile":"Containerfile",
-    "root":false,
+    "category":"cracker",
     "image":"hashcat-container"
 }

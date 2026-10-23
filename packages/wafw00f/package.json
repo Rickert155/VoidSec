@@ -3,5 +3,6 @@
     "description":"Детектор WAF",
     "source":"https://github.com/EnableSecurity/wafw00f",
     "containerfile":"Containerfile",
+    "category":"waf",
     "image":"localhost/wafw00f-container"
 }

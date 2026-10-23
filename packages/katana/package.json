@@ -3,5 +3,6 @@
     "description":"A next-generation crawling and spidering framework",
     "source":"https://github.com/projectdiscovery/katana",
     "containerfile":"Containerfile",
+    "category":"crawler | parser | webapp",
     "image":"localhost/katana"
 }
