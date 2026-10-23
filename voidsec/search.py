@@ -40,3 +40,6 @@ def search(package_name:str|list[str]) -> None:
                 f"{YELLOW}URL: {source}{RESET}\n"
                 )
         print(text)
+    
+    if len(result_search) == 0:
+        print(f"{RED}Keyword {BOLD}{key}{RESET}{RED} not found!{RESET}")
