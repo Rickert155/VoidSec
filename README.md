@@ -74,6 +74,6 @@ python3 -m voidsec --delete cyberscan
 ```
 
 **Поиск инструмента по ключевым словами**
-``sh
+```sh
 python3 -m voidsec --search "scanner"
-``
+```
