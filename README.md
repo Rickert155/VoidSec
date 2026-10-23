@@ -33,6 +33,7 @@ VoidSec не заменяет специализированные операц�
 - name;
 - description;
 - source;
+- category
 - containerfile;
 - image.  
 
