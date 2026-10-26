@@ -20,5 +20,5 @@ http://www.gnu.org/licenses/gpl-3.0.txt
 """
 
 __author__ = "CyberWarn"
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 __project__ = "VoidSec"

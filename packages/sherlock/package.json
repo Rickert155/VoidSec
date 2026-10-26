@@ -1,0 +1,8 @@
+{
+    "name":"sherlock",
+    "description":"Hunt down social media accounts by username",
+    "source":"https://github.com/sherlock-project/sherlock/",
+    "containerfile":"Containerfile",
+    "category":"social | username | accounts",
+    "image":"localhost/sherlock-container"
+}
