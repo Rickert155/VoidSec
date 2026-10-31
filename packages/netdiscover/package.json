@@ -1,0 +1,8 @@
+{
+    "name":"netdiscover",
+    "description":"Network address discovering tool",
+    "source":"https://github.com/netdiscover-scanner/netdiscover",
+    "containerfile":"Containerfile",
+    "category":"scanner | recon | network",
+    "image":"netdiscover-container"
+}
