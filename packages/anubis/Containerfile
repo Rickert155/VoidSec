@@ -1,0 +1,13 @@
+FROM ubuntu:22.04 
+
+RUN apt update && apt install fish python3 python3-venv git vim libssl-dev libffi-dev -y
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN git clone https://github.com/jonluca/anubis 
+RUN apt remove git -y && apt autoremove -y
+WORKDIR /root/anubis
+RUN python3 -m venv venv && ./venv/bin/pip install -r requirements.txt && ./venv/bin/pip install .
+RUN rm *.md *.in *.svg *.cfg *.txt Dockerfile LICENSE setup.py
+RUN rm -rf anubis* tests build
+RUN echo "source /root/anubis/venv/bin/activate.fish" > /root/.config/fish/config.fish
+CMD ["fish"]

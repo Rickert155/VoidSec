@@ -1,0 +1,8 @@
+{
+    "name":"anubis",
+    "description":"Subdomain enumeration and information gathering tool",
+    "source":"https://github.com/jonluca/anubis",
+    "containerfile":"Containerfile",
+    "category":"subdominas | enumerate",
+    "image":"localhost/anubis-container"
+}
