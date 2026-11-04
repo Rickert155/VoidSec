@@ -3,6 +3,6 @@
     "description":"Subdomain enumeration and information gathering tool",
     "source":"https://github.com/jonluca/anubis",
     "containerfile":"Containerfile",
-    "category":"subdominas | enumerate",
+    "category":"subdominas | enumerate | osint",
     "image":"localhost/anubis-container"
 }

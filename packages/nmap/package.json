@@ -1,8 +1,8 @@
 {
     "name":"nmap",
-    "description":"Утилита для исследования сети и сканер портов",
+    "description":"Network Mapper",
     "source":"https://github.com/nmap/nmap",
     "containerfile":"Containerfile",
-    "category":"scanner | recon",
+    "category":"scanner | recon | mapping",
     "image":"nmap-container"
 }

@@ -3,6 +3,6 @@
     "description":"a high-performance directory/file, DNS and virtual host brute-forcing tool",
     "source":"https://github.com/OJ/gobuster",
     "containerfile":"Containerfile",
-    "category":"fuzzing | recon | brute-force",
+    "category":"fuzzing | recon | brute-force | enumerate",
     "image":"localhost/gobuster-container"
 }

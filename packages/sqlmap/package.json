@@ -1,6 +1,6 @@
 {
     "name":"sqlmap",
-    "description":"Инструмент для выявления sqli в веб-приложениях",
+    "description":"Automatic SQL injection and database takeover tool",
     "source":"https://github.com/sqlmapproject/sqlmap",
     "containerfile":"Containerfile",
     "category":"sqli | webapp",
