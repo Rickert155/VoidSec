@@ -1,0 +1,8 @@
+{
+    "name":"chankro",
+    "description":"Tool to bypass disable_functions and open_basedir",
+    "source":"https://github.com/TarlogicSecurity/Chankro",
+    "containerfile":"Containerfile",
+    "category":"bypass",
+    "image":"localhost/chankro-container"
+}

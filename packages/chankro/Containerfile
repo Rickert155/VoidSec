@@ -1,0 +1,9 @@
+FROM ubuntu:22.04
+
+RUN apt update && apt install fish python2 git vim -y
+RUN /usr/bin/fish -c "set -U fish_greeting"
+WORKDIR /root
+RUN git clone https://github.com/TarlogicSecurity/Chankro chankro
+RUN apt remove git -y
+WORKDIR /root/chankro
+CMD ["fish"]
