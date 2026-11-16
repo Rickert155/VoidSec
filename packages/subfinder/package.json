@@ -4,5 +4,5 @@
     "source":"https://github.com/projectdiscovery/subfinder",
     "containerfile":"Containerfile",
     "category":"subdomain | scanner | osint",
-    "image":"localhost/subfinder"
+    "image":"localhost/subfinder-container"
 }
